@@ -7,15 +7,16 @@ Kafka is a distributed publish-subscribe messaging system.
 
 # Java Install
 ~~~
-$ sudo apt update -y && sudo apt install -y openjdk-11-jdk
+$ sudo apt update -y && sudo apt install -y openjdk-8-jdk
 ~~~
 
 # Java Version
 ~~~
 $ java -version
-openjdk version "11.0.15" 2022-04-19
-OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1)
-OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode, sharing)
+java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 ~~~
 # PrivateMessenger-Client
 ~~~
