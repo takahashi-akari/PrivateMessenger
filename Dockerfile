@@ -1,4 +1,5 @@
-FROM Ubuntu:20.04
+# sudo docker build ./ -t privatemessenger
+FROM ubuntu:20.04
 
 
 # Install the dependencies
