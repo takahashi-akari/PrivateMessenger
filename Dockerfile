@@ -1,6 +1,9 @@
 # sudo docker build ./ -t privatemessenger
 FROM ubuntu:20.04
-
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y tzdata
+# timezone setting
+ENV TZ=Asia/Tokyo
 
 # Install the dependencies
 RUN apt-get update && apt-get install -y \
