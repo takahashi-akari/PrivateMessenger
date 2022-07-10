@@ -37,6 +37,9 @@ $ mvn clean compile assembly:single
 $ java -jar target/PrivateMessenger-Client-x.x.x-jar-with-dependencies.jar
 ~~~
 
+## Screenshot of PrivateMessenger-Client
+![screenshot](client/screenshot.png)
+
 # PrivateMessenger-Server
 ~~~
 +----------------------+          +---------------------------+          +----------------------+
