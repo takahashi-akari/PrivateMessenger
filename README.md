@@ -5,6 +5,8 @@ Secure and Private messaging with Kafka.
 TCP/IP communication with Kafka.  
 Kafka is a distributed publish-subscribe messaging system.
 
+# This repository is incomplete now.
+
 # Java Install
 ~~~
 $ sudo apt update -y && sudo apt install -y openjdk-8-jdk
