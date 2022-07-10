@@ -5,6 +5,8 @@ Secure and Private messaging with Kafka.
 TCP/IP communication with Kafka.  
 Kafka is a distributed publish-subscribe messaging system.
 
+# This repository is incomplete now.
+
 # Java Install
 ~~~
 $ sudo apt update -y && sudo apt install -y openjdk-8-jdk
@@ -30,7 +32,7 @@ OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 - [PrivateMessenger-Client](https://github.com/takahashi-akari/PrivateMessenger-Client)
 
 ~~~
-$ git clone
+$ git clone https://github.com/takahashi-akari/PrivateMessenger-Client.git
 $ cd PrivateMessenger-Client
 ...
 $ mvn clean compile assembly:single
@@ -53,7 +55,7 @@ $ java -jar target/PrivateMessenger-Client-x.x.x-jar-with-dependencies.jar
 - [PrivateMessenger-Server](https://github.com/takahashi-akari/PrivateMessenger-Server)
 
 ~~~
-$ git clone
+$ git clone https://github.com/takahashi-akari/PrivateMessenger-Server.git
 $ cd PrivateMessenger-Server
 ...
 $ mvn clean compile assembly:single
