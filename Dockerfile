@@ -1,3 +1,11 @@
+# @title PrivateMessenger Dockerfile
+# @description This is the Dockerfile for the PrivateMessenger docker image.
+# @author Takahashi Akari <akaritakahashioss@gmail.com>
+# @version 0.0.9
+# @date 2022-07-11
+# @license MIT License (https://opensource.org/licenses/MIT)
+# @copyright 2022 Takahashi Akari <akaritakahashioss@gmail.com>
+#
 # sudo groupadd docker
 # sudo usermod -aG docker $USER
 # newgrp docker
@@ -64,6 +72,12 @@ RUN tar -xvzf kafka.tgz --strip 1
 # export KAFKA_BROKER_LIST=localhost:9092
 # export KAFKA_TOPIC_LIST=topic1,topic2,topic3
 # export KAFKA_GROUP_ID=group1
+#
+# git clone https://github.com/takahashi-akari/PrivateMessenger-Server.git
+# cd PrivateMessenger-Server/
+# cd privatemessengerserver/
+# mvn clean compile assembly:single
+# java -jar target/PrivateMessenger-Server-x.x.x-with-dependencies.jar
 #
 # docker build ./ -t privatemessenger
 # docker run -it -d -p 8080:8080 privatemessenger
