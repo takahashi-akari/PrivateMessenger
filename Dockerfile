@@ -80,4 +80,4 @@ RUN tar -xvzf kafka.tgz --strip 1
 # java -jar target/PrivateMessenger-Server-x.x.x-with-dependencies.jar
 #
 # docker build ./ -t privatemessenger
-# docker run -it -d -p 9092:9092 privatemessenger
+# docker run -it -d -p 8080:8080 privatemessenger
