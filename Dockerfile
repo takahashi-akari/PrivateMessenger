@@ -1,4 +1,7 @@
-# sudo docker build ./ -t privatemessenger
+# sudo groupadd docker
+# sudo usermod -aG docker $USER
+# newgrp docker
+# docker build ./ -t privatemessenger
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y tzdata
@@ -62,5 +65,5 @@ RUN tar -xvzf kafka.tgz --strip 1
 # export KAFKA_TOPIC_LIST=topic1,topic2,topic3
 # export KAFKA_GROUP_ID=group1
 #
-# sudo docker build ./ -t privatemessenger
-# sudo docker run -it -d -p 8080:8080 privatemessenger
+# docker build ./ -t privatemessenger
+# docker run -it -d -p 8080:8080 privatemessenger
