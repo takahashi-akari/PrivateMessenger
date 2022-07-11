@@ -1,7 +1,7 @@
 # @title PrivateMessenger Dockerfile
 # @description This is the Dockerfile for the PrivateMessenger docker image.
 # @author Takahashi Akari <akaritakahashioss@gmail.com>
-# @version 0.0.9
+# @version 0.0.10
 # @date 2022-07-11
 # @license MIT License (https://opensource.org/licenses/MIT)
 # @copyright 2022 Takahashi Akari <akaritakahashioss@gmail.com>
@@ -80,4 +80,4 @@ RUN tar -xvzf kafka.tgz --strip 1
 # java -jar target/PrivateMessenger-Server-x.x.x-with-dependencies.jar
 #
 # docker build ./ -t privatemessenger
-# docker run -it -d -p 8080:8080 privatemessenger
+# docker run -it -d -p 9092:9092 privatemessenger
